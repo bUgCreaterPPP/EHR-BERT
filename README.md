@@ -45,3 +45,15 @@ python ehr-bert.py predict
 ```shell script 
 project/output //Stores intermediate files and final results during execution
 ```
+
+## Paper
+
+My research paper is under review:
+
+```plaintext
+@article{ehr-bert,
+  title = {EHR-BERT: A BERT-based Model for Effective Anomaly Detection in Electronic Health Records},
+  journal = {JBI},
+  year = {2023},
+  note = {Under Review}
+}
