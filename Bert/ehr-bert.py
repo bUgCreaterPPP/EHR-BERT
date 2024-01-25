@@ -64,6 +64,11 @@ options["with_cuda"]= True
 options["cuda_devices"] = None
 options["log_freq"] = None
 
+# predict
+options["num_candidates"] = 5
+options["gaussian_mean"] = 0
+options["gaussian_std"] = 1
+
 seed_everything(seed=1234)
 print("device", options["device"])
 print("features logkey:{} time: {}\n".format(options["is_logkey"], options["is_time"]))
