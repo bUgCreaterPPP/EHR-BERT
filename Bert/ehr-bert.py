@@ -23,9 +23,9 @@ options["model_path"] = options["model_dir"] + "best_bert.pth"
 
 options["window_size"] = 128
 options["adaptive_window"] = True
-options["seq_len"] = 512 # max sequence length that will be considered for model
-options["max_len"] = 512 # for position embedding
-options["min_len"] = 10
+options["seq_len"] = 60 # max sequence length that will be considered for model
+options["max_len"] = 60 # for position embedding
+options["min_len"] = 5
 
 options["mask_ratio"] = 0.15
 
@@ -46,8 +46,8 @@ options["scale_path"] = options["model_dir"] + "scale.pkl"
 
 # model
 options["hidden"] = 256 # embedding size
-options["layers"] = 4 # the number of transformer layers
-options["attn_heads"] = 4
+options["layers"] = 5 # the number of transformer layers
+options["attn_heads"] = 5
 
 options["epochs"] = 200
 options["n_epochs_stop"] = 10
