@@ -71,9 +71,12 @@ project/output //Stores intermediate files and final results during execution
 My research paper is under review:
 
 ```plaintext
-@article{ehr-bert,
-  title = {EHR-BERT: A BERT-based Model for Effective Anomaly Detection in Electronic Health Records},
-  journal = {JBI},
-  year = {2024},
-  note = {Under Review}
+@article{niu2024ehr,
+  title={EHR-BERT: A BERT-based model for effective anomaly detection in electronic health records},
+  author={Niu, Haoran and Omitaomu, Olufemi A and Langston, Michael A and Olama, Mohammad and Ozmen, Ozgur and Klasky, Hilda B and Laurio, Angela and Ward, Merry and Nebeker, Jonathan},
+  journal={Journal of Biomedical Informatics},
+  pages={104605},
+  year={2024},
+  publisher={Elsevier}
+}
 }
