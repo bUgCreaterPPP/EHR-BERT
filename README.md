@@ -68,8 +68,6 @@ project/output //Stores intermediate files and final results during execution
 
 ## Paper
 
-My research paper is under review:
-
 ```plaintext
 @article{niu2024ehr,
   title={EHR-BERT: A BERT-based model for effective anomaly detection in electronic health records},
@@ -78,5 +76,4 @@ My research paper is under review:
   pages={104605},
   year={2024},
   publisher={Elsevier}
-}
 }
